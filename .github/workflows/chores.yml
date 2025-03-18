@@ -2,8 +2,8 @@ name: Scheduled Chores
 
 on:
     workflow_dispatch:
-    schedule:
-        - cron: "0 0 * * 0" # At 00:00 on Sunday
+    #schedule:
+    #    - cron: "0 0 * * 0" # At 00:00 on Sunday
 
 jobs:
     check_api_versions:
